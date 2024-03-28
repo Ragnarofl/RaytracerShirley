@@ -1,7 +1,8 @@
 #include "Sphere.h"
 
-bool Sphere::hit(Ray& r, float t_min, float t_max, hit_record& rec) const
+bool Sphere::hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const
 {
+    (void)mt;
     //Root-Finding Method
     vec3 A = r.origin();
     vec3 B = r.direction();

@@ -6,7 +6,8 @@
 class xy_rect : public Hitable {
 	public:
 		xy_rect(float x0, float x1, float y0, float y1, float k, Material* mat) : _x0(x0), _x1(x1), _y0(y0), _y1(y1), _k(k), _mat(mat) {};
-		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec) const {
+		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const {
+			(void)mt;
 			float t = (_k - r.origin().z()) / r.direction().z();
 
 			if (t >= t_min && t < t_max) {
@@ -37,7 +38,8 @@ class xy_rect : public Hitable {
 class xz_rect : public Hitable {
 	public:
 		xz_rect(float x0, float x1, float z0, float z1, float k, Material* mat) : _x0(x0), _x1(x1), _z0(z0), _z1(z1), _k(k), _mat(mat) {};
-		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec) const {
+		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const {
+			(void)mt;
 			float t = (_k - r.origin().y()) / r.direction().y();
 
 			if (t >= t_min && t < t_max) {
@@ -68,7 +70,8 @@ class xz_rect : public Hitable {
 class yz_rect : public Hitable {
 	public:
 		yz_rect(float y0, float y1, float z0, float z1, float k, Material* mat) : _y0(y0), _y1(y1), _z0(z0), _z1(z1), _k(k), _mat(mat) {};
-		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec) const {
+		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const {
+			(void)mt;
 			float t = (_k - r.origin().x()) / r.direction().x();
 
 			if (t >= t_min && t < t_max) {

@@ -8,7 +8,7 @@ AABB surrounding_box(AABB box0, AABB box1);
 class HitableList : public Hitable {
 public:
 	HitableList(Hitable** l, int n);
-	virtual bool hit(Ray& r, float tmin, float tmax, hit_record& rec) const;
+	virtual bool hit(Ray& r, float tmin, float tmax, hit_record& rec, std::mt19937& mt) const;
 	virtual bool bounding_box(float t0, float t1, AABB& box) const;
 
 private:

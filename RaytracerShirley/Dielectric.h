@@ -29,7 +29,7 @@ class Dielectric : public Material
 {
 public:
 	Dielectric(float ri) : _ref_index(ri) {};
-	virtual bool scatter(Ray& r_in, const hit_record& rec, vec3& attenuation, Ray& scattered) const
+	virtual bool scatter(Ray& r_in, const hit_record& rec, vec3& attenuation, Ray& scattered, std::mt19937& mt) const
 	{
 		vec3 outward_normal;
 		vec3 refracted;
@@ -57,7 +57,7 @@ public:
 		else
 			reflected_prob = 1.0; //Total reflection
 
-		if (_rdu->random_unit_float() < reflected_prob) { //Randomly chose between reflection/refraction to return
+		if (random_unit_float(mt) < reflected_prob) { //Randomly chose between reflection/refraction to return
 			vec3 reflected = r_in.direction() - 2 * (rec.normal * dot(r_in.direction(), rec.normal));
 			scattered = Ray(rec.p, reflected);
 		}
@@ -70,7 +70,6 @@ public:
 
 private:
 	float _ref_index;
-	Random_unit* _rdu = Random_unit::getInstance();
 };
 
 #endif

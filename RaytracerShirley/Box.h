@@ -17,8 +17,8 @@ class Box : public Hitable {
 			list[5] = new FlipNormals(new yz_rect(p0.y(), p1.y(), p0.z(), p1.z(), p0.x(), ptr));
 			_list_ptr = new HitableList(list, 6);
 		};
-		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec) const {
-			return _list_ptr->hit(r, t_min, t_max, rec);
+		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const {
+			return _list_ptr->hit(r, t_min, t_max, rec, mt);
 		}
 		virtual bool bounding_box(float t0, float t1, AABB& box) const {
 			box = AABB(_pmin, _pmax);

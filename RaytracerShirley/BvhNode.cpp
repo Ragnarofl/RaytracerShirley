@@ -34,10 +34,9 @@ int box_z_compare(const void* a, const void* b) {
 		return 1;
 }
 
-BvhNode::BvhNode(Hitable** l, int n, float time0, float time1)
+BvhNode::BvhNode(Hitable** l, int n, float time0, float time1, std::mt19937& mt)
 {
-	Random_unit* rdu = Random_unit::getInstance();
-	int axis = rdu->random_unit_int(2); // randomly choses an axis to split the box in two
+	int axis = random_unit_int(2, mt); // randomly choses an axis to split the box in two
 	auto comparator = (axis == 0) ? box_x_compare : (axis == 1) ? box_y_compare : box_z_compare;
 	std::qsort(l, n, sizeof(Hitable*), comparator); // sort boxes with the chosen comparator x-y-z
 
@@ -47,8 +46,8 @@ BvhNode::BvhNode(Hitable** l, int n, float time0, float time1)
 		_left = l[0];
 		_right = l[1];
 	} else { // we divide item count by 2 each time since we split tree in two
-		_left = new BvhNode(l, n / 2, time0, time1);
-		_right = new BvhNode(l + n / 2, n - n / 2, time0, time1);
+		_left = new BvhNode(l, n / 2, time0, time1, mt);
+		_right = new BvhNode(l + n / 2, n - n / 2, time0, time1, mt);
 	}
 
 	AABB box_left, box_right;
@@ -57,12 +56,12 @@ BvhNode::BvhNode(Hitable** l, int n, float time0, float time1)
 	_box = surrounding_box(box_left, box_right); // create the node's bounding box
 }
 
-bool BvhNode::hit(Ray& r, float t_min, float t_max, hit_record& rec) const
+bool BvhNode::hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const
 {
 	if (_box.hit(r, t_min, t_max)) {
 		hit_record left_rec, right_rec;
-		bool hit_left = _left->hit(r, t_min, t_max, left_rec); // check left hit recursively
-		bool hit_right = _right->hit(r, t_min, t_max, right_rec); // check right hit recursively
+		bool hit_left = _left->hit(r, t_min, t_max, left_rec, mt); // check left hit recursively
+		bool hit_right = _right->hit(r, t_min, t_max, right_rec, mt); // check right hit recursively
 		if (hit_left && hit_right) { // check if both boxes got hit
 			if (left_rec.t < right_rec.t)
 				rec = left_rec;

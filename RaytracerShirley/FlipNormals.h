@@ -6,8 +6,8 @@
 class FlipNormals : public Hitable {
 	public:
 		FlipNormals(Hitable *p) : _ptr(p) {}
-		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec) const {
-			if (_ptr->hit(r, t_min, t_max, rec)) {
+		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const {
+			if (_ptr->hit(r, t_min, t_max, rec, mt)) {
 				rec.normal = -rec.normal;
 				return true;
 			}

@@ -30,17 +30,20 @@ class RotateY : public Hitable {
 					}
 			_bbox = AABB(min, max);
 		}
-		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec) const {
+		virtual bool hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const {
 			vec3 origin = r.origin();
 			vec3 direction = r.direction();
+
 			origin[0] = _cosTheta * r.origin()[0] - _sinTheta * r.origin()[2];
 			origin[2] = _sinTheta * r.origin()[0] + _cosTheta * r.origin()[2];
 			direction[0] = _cosTheta * r.direction()[0] - _sinTheta * r.direction()[2];
 			direction[2] = _sinTheta * r.direction()[0] + _cosTheta * r.direction()[2];
+
 			Ray rotated_r(origin, direction);
-			if (_ptr->hit(rotated_r, t_min, t_max, rec)) {
+			if (_ptr->hit(rotated_r, t_min, t_max, rec, mt)) {
 				vec3 p = rec.p;
 				vec3 normal = rec.normal;
+
 				p[0] = _cosTheta * rec.p[0] + _sinTheta * rec.p[2];
 				p[2] = -_sinTheta * rec.p[0] + _cosTheta * rec.p[2];
 				normal[0] = _cosTheta * rec.normal[0] + _sinTheta * rec.normal[2];

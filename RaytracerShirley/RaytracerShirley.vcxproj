@@ -118,6 +118,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,6 +142,7 @@
     <ClInclude Include="Lambertian.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="Metal.h" />
+    <ClInclude Include="Random.h" />
     <ClInclude Include="Random_unit.h" />
     <ClInclude Include="Ray.h" />
     <ClInclude Include="Rectangle.h" />
@@ -158,7 +160,7 @@
     <ClCompile Include="Fall.cpp" />
     <ClCompile Include="HitableList.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Metal.cpp" />
+    <ClCompile Include="Random.cpp" />
     <ClCompile Include="Ray.cpp" />
     <ClCompile Include="Sphere.cpp" />
   </ItemGroup>

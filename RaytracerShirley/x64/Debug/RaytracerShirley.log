@@ -5,9 +5,6 @@ C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(57,10): 
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(64,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(65,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(66,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(41,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(55,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(68,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   Camera.cpp
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\vec3.h(61,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(56,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
@@ -15,9 +12,6 @@ C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(57,10): 
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(64,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(65,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(66,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(41,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(55,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(68,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Camera.cpp(13,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Camera.cpp(26,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Camera.cpp(43,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
@@ -28,71 +22,64 @@ C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(57,10): 
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(64,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(65,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(66,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(41,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(55,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(68,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\HitableList.cpp(15,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Main.cpp
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Vec3.h(61,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(41,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(55,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(68,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(56,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(57,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(64,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(65,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(66,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(41,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(55,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(69,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(83,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(96,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(102,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Dielectric.h(9,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Dielectric.h(11,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Dielectric.h(50,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(28,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(28,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(59,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(59,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(90,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(90,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(29,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(29,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(61,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(61,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(93,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rectangle.h(93,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Rotation.h(9,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\ConstantMedium.h(31,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(76,52): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(98,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(98,100): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(98,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(99,16): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(107,120): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(107,82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(107,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(107,165): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(116,106): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(117,79): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(132,78): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(133,80): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(134,80): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(144,88): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(149,90): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(149,93): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(169,80): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(170,81): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(179,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(189,82): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(192,90): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(192,93): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(194,96): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(240,83): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(240,126): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(252,88): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(252,91): warning C4305: 'argument': truncation from 'double' to 'float'
-  Metal.cpp
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\vec3.h(61,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(56,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(57,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(64,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(65,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(66,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(41,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(55,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(68,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  Ray.cpp
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\vec3.h(61,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\ConstantMedium.h(30,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(77,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(100,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(100,94): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(100,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(101,16): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(109,114): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(109,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(109,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(109,156): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(118,106): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(119,79): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(134,78): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(135,80): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(136,80): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(146,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(151,90): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(151,93): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(172,80): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(173,81): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(182,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(192,82): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(195,90): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(195,93): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(197,96): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(247,83): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(247,126): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(254,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(254,91): warning C4305: 'argument': truncation from 'double' to 'float'
+  Random.cpp
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Vec3.h(61,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random.cpp(6,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random.cpp(19,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random.cpp(33,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Sphere.cpp
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\vec3.h(61,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(56,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
@@ -100,12 +87,9 @@ C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(57,10): 
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(64,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(65,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Texture.h(66,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(41,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(55,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Random_unit.h(68,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Sphere.cpp(53,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Sphere.cpp(55,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Sphere.cpp(56,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Sphere.cpp(54,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Sphere.cpp(56,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Sphere.cpp(57,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(85): warning C4715: 'color': not all control paths return a value
+C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\Main.cpp(86): warning C4715: 'color': not all control paths return a value
   RaytracerShirley.vcxproj -> C:\Users\Simon\source\repos\RaytracerShirley\RaytracerShirley\x64\Debug\RaytracerShirley.exe

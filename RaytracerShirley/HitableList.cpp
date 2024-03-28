@@ -6,13 +6,13 @@ HitableList::HitableList(Hitable** l, int n)
 	_list_size = n;
 }
 
-bool HitableList::hit(Ray& r, float t_min, float t_max, hit_record& rec) const
+bool HitableList::hit(Ray& r, float t_min, float t_max, hit_record& rec, std::mt19937& mt) const
 {
 	hit_record temp_rec;
 	bool hit_anything = false;
 	double closest_so_far = t_max;
 	for (int i = 0; i < _list_size; i++) {
-		if (_list[i]->hit(r, t_min, closest_so_far, temp_rec)) {
+		if (_list[i]->hit(r, t_min, closest_so_far, temp_rec, mt)) {
 			hit_anything = true;
 			closest_so_far = temp_rec.t;
 			rec = temp_rec;

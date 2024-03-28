@@ -53,13 +53,13 @@ Camera::Camera(vec3 lookFrom, vec3 lookAt, vec3 vup, float vfov, float aspect, f
 	_vertical = 2.0f * half_height * focus_dist * _v;
 }
 
-Ray Camera::get_ray(float u, float v)
+Ray Camera::get_ray(float u, float v, std::mt19937 mt)
 {
 	/*vec3 p(_lower_left_corner + u * _horizontal + v * _vertical);
 
 	Ray ray(_origin, p - _origin);
 	return ray;*/
-	vec3 random = _lens_radius * _rdu->random_in_unit_disk();
+	vec3 random = _lens_radius * random_in_unit_disk(mt);
 	vec3 offset = _u * random.x() + _v * random.y();
 	vec3 p = _lower_left_corner + u * _horizontal + v * _vertical;
 
